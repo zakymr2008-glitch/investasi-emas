@@ -27,7 +27,7 @@ class InvestmentApp:
         master.resizable(False, False)
 
         # State awal
-        self.cash = D(1000000000)               # saldo awal: Rp 10.000.000
+        self.cash = D(100000000)               # saldo awal: Rp 10.000.000
         self.gold_grams = D(0)                # gram emas milik user
         self.price_per_gram = D(1_000_000)    # harga awal: Rp 1.000.000 per gram
         self.day = 1
@@ -213,3 +213,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = InvestmentApp(root)
     root.mainloop()
+
